@@ -1,0 +1,54 @@
+h1,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main_div{
+  display: flex;
+  align-items: center;
+  
+  justify-content: center;
+  margin-top: 67px;
+  
+}
+.center_div{
+  background-color: cadetblue;
+  height: 470px;
+  width: 280px;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 16px 15px 17px 10px gray;
+}
+.TodoHeader{
+  background-color: rgb(10, 10, 177);
+  height: 50px;
+  margin-bottom: 22px;
+  color: aliceblue;
+  
+}
+#add-btn{
+  border-radius: 50%;
+  background-color: rgb(16, 175, 77);
+  width: 30px;
+  height: 30px;
+  margin-left: 7px;
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+}
+body{
+  background-color:lightgrey
+}
+body{
+    background-color:lightgrey
+  }
+  #inputBox{
+    height: 40px;
+    width: 80%;
+    border-radius: 4px;
+    background-color:lightgray
+  }
+  input{
+    border:none;
+  }

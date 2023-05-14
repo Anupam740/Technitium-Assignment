@@ -39,6 +39,9 @@ const Board =()=>{
   const handleReset=()=>{
     setState(Array(9).fill(null))
   }
+  const HandleReset=()=>{
+    setState(Array(9).fill(null))
+  }
   return(
     <div className="board-container">
       {isWinner ? ( <> {isWinner} Won the Game  <button onClick={handleReset}>Play Again</button></>) : ( 
@@ -59,6 +62,9 @@ const Board =()=>{
       <Square onClick={() => handleClick(6)} value={state[6]} />
       <Square onClick={() => handleClick(7)} value={state[7]} />
       <Square onClick={() => handleClick(8)} value={state[8]} />
+      </div>
+      <div className="ResetOnscr">
+        <button onClick={HandleReset}>Reset</button>
       </div>
       </>)}
 
