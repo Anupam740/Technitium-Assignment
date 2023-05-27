@@ -1,0 +1,82 @@
+.main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.eachItems{
+    display: flex;
+    flex-direction: row;
+}
+figcaption{
+    color: azure;
+    margin: 15px;
+}
+figure{
+    margin: 10px;
+}
+addItems{
+    display: inline-block;
+}
+button{
+    cursor: pointer;
+    color: brown;
+    border-radius: 50%;
+}
+.eachItems{
+    background-color: rgb(175, 175, 175);
+    height: 80%;
+    display: flex;
+    margin-top: 10px;
+
+    padding: 7px;
+    border-radius: 10px;
+    justify-content: space-between;
+    width: 300px;
+    border: 2px solid white;
+}
+.eachItems:hover{
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    
+}
+input:focus{
+    background-color: rgb(217, 252, 240);
+    border: none;
+}
+.child-div{
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    border: 2PX solid white;
+    border-radius: 15px;
+    
+
+}
+#addbtn{
+    background-color: chartreuse;
+    height: 30px;
+    margin-left: 12px;
+    border-radius: 7px;
+}
+#clearallbtn{
+    background-color: rgb(199, 6, 6);
+    color: azure;
+    height: 40px;
+    border-radius: 10px;
+    margin: 10px;
+}
+input{
+    height: 30px;
+    width: 280px;
+    border: none;
+    border-radius: 7px;
+}
+.showItems{
+    
+    margin-top: 40px;
+}
