@@ -1,0 +1,22 @@
+
+li{
+    
+    cursor: pointer;
+    font-size: 30px;
+    margin-left: 20px;
+    display: inline;
+    padding-right: 270px;
+    background-color: chartreuse;
+    
+    padding-left: 77px;
+    margin: 0px;
+    text-align: center;
+    
+}
+h1{
+    text-align: center;
+}
+li:hover{
+    background-color: brown;
+    color: azure;
+}
