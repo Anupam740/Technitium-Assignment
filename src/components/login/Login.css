@@ -1,0 +1,31 @@
+form{
+    border: 2px gray solid;
+    width: 40vw;
+    height: 60vh;
+    background-color: cadetblue;
+    margin: auto;
+    top: 50px;
+    border-radius: 15px;
+    
+    
+}
+form div  {
+    
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    width: 20vw;
+    border-radius: 7px;
+    
+    
+}
+.loginEmail{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+span{
+    margin: 20px;
+}
